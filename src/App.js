@@ -1,21 +1,27 @@
 import React from 'react';
+// import PropTypes from 'prop-types';
 
 
+class App extends React.Component {
 
-function Food(props){
-  console.log(props)
-  return <h4>I like potato</h4>
-}
+  state = {
+    count : 0,
+  }
 
+  add = () => {
+    this.setState(nowState => ({ count: nowState.count + 1 }));
+  }
+  minus = () => {
+    this.setState(nowState => ({ count: nowState.count - 1 }))
 
-function App(){
- return (
-   <div>
-     <h1>Hello!!!!!</h1>
-    <Food fav="kimchi" something={true} papapa={[1, 2, 3, "haha"]}/>
-
-   </div>
- );
+  }
+  render(){
+    return <div>
+      <h2>The number is {this.state.count}</h2>
+      <button onClick={this.add}>Add</button>
+      <button onClick={this.minus}>Minus</button>
+    </div>
+  }
 }
 
 export default App;
