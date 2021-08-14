@@ -4,6 +4,19 @@ import React from 'react';
 
 class App extends React.Component {
 
+  constructor(props){
+    super(props)
+    console.log("=>Constructor");
+  }
+  componentDidMount(){
+    console.log("=>componentDidmount")
+  }
+  componentDidUpdate(){
+    console.log("=>componentDidUpdate ")
+  }
+  componentWillUnmount(){
+    console.log("=> Bye")
+  }
   state = {
     count : 0,
   }
@@ -16,6 +29,8 @@ class App extends React.Component {
 
   }
   render(){
+    console.log("=>render");
+
     return <div>
       <h2>The number is {this.state.count}</h2>
       <button onClick={this.add}>Add</button>
