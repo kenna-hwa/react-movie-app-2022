@@ -55,10 +55,12 @@ table {
 
 html, body {
   height: 100%;
-  background-color: #f8f4ff;
+  background-color: #F8F4FF;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
   font-size: 16px;
+  word-break: keep-all;
+  cursor: default;
 }
 
 html .container .loader, body .container .loader {
@@ -77,7 +79,7 @@ html .container .loader .loader_txt, body .container .loader .loader_txt {
   color: #f2f3f4;
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  font-size: 20px;
+  font-size: 24px;
   text-shadow: 2px 2px #222;
   line-height: 200px;
 }
@@ -88,7 +90,7 @@ html .container header, body .container header {
 }
 
 html .container header .movies_main_title, body .container header .movies_main_title {
-  font-size: 36px;
+  font-size: 40px;
   font-family: 'Playfair Display', serif;
   font-weight: 800;
   font-style: italic;

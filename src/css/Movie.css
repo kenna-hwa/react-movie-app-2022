@@ -1,12 +1,21 @@
 .movies .movies_info {
   width: 40%;
-  background: #fff;
+  background: #FFF;
   margin: 0 auto 50px;
-  padding: 20px;
+  padding: 50px;
   border-radius: 5px;
-  color: #adaeb9;
-  -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.2), 0 8px 16px -8px rgba(10, 10, 10, 0.2), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-          box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.2), 0 8px 16px -8px rgba(10, 10, 10, 0.2), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  color: #E1E7EE;
+  -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.4), 0 8px 16px -8px rgba(10, 10, 10, 0.4), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+          box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.4), 0 8px 16px -8px rgba(10, 10, 10, 0.4), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.movies .movies_info:hover {
+  -webkit-box-shadow: 0 13px 27px -5px rgba(210, 197, 232, 0.3), 0 8px 16px -8px rgba(210, 197, 232, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+          box-shadow: 0 13px 27px -5px rgba(210, 197, 232, 0.3), 0 8px 16px -8px rgba(210, 197, 232, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 
 .movies .movies_info a {
@@ -20,7 +29,7 @@
 }
 
 .movies .movies_info .movies_text .movies_title {
-  color: #2c2c2c;
+  color: #2C2C2C;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;

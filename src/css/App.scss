@@ -13,6 +13,8 @@ html, body{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     font-size: 16px;
+    word-break: keep-all;
+    cursor: default;
 
     .container{
         // isLoading 상태
@@ -32,7 +34,7 @@ html, body{
                 color: #f2f3f4;
                 font-family: 'Playfair Display', serif;
                 font-style: italic;
-                font-size: 20px;
+                font-size: 24px;
                 text-shadow: 2px 2px #222;
                 line-height: 200px;
             }
@@ -45,7 +47,7 @@ html, body{
             margin: 100px auto;
 
             .movies_main_title{
-            font-size: 36px;
+            font-size: 40px;
             font-family: 'Playfair Display', serif;
             font-weight: 800;
             font-style: italic;

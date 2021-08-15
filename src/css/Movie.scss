@@ -6,10 +6,16 @@
         width: 40%;
         background: #{$background-white};
         margin: 0 auto 50px;
-        padding: 20px;
+        padding: 50px;
         border-radius: 5px;
         color: #{$fontColor};
         @include box-deco;
+        transition: 0.3s all;
+
+        &:hover{
+        @include yellow-deco;
+        transition: 0.3s all;
+        }
 
         a{
             display: grid;
