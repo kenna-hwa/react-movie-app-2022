@@ -1,0 +1,56 @@
+@import "./reset";
+@import "./variables";
+@import "./mixin";
+
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color: #{$blue-jasmine};
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+    .container{
+        // isLoading 상태
+
+        .loader {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -100px;
+            
+            .loader_txt{
+                color: #f2f3f4;
+                font-family: 'Playfair Display', serif;
+                font-style: italic;
+                font-size: 20px;
+                text-shadow: 2px 2px #222;
+                line-height: 200px;
+            }
+        }
+
+
+        // isLoading 이후
+        header{
+            text-align: center;
+            margin: 100px auto;
+
+            .movies_main_title{
+            font-size: 36px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 800;
+            font-style: italic;
+            }
+
+        }
+    }
+}

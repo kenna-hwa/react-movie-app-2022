@@ -1,0 +1,31 @@
+@import "./variables";
+@import "./mixin";
+
+.movies{
+    .movies_info {
+        width: 40%;
+        background: #{$background-white};
+        margin: 0 auto 50px;
+        padding: 20px;
+        border-radius: 5px;
+        color: #{$fontColor};
+        @include box-deco;
+
+        a{
+            display: grid;
+            grid-template-columns: minmax(150px, 1fr) 2fr;
+            grid-gap: 20px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .movies_text{
+            .movies_title{
+                color: #{$titleColor};
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

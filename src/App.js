@@ -1,7 +1,7 @@
 import React from 'react';
 import Movie from './Movie';
-
 import axios from 'axios';
+import './css/App.css';
 
 
 class App extends React.Component {
@@ -14,27 +14,42 @@ class App extends React.Component {
     const {data: {peopleInfoResult : {peopleInfo :{ filmos }}}} = await axios.get("https://kobis.or.kr/kobisopenapi/webservice/rest/people/searchPeopleInfo.json?key=8259f2a744e900c0fd98e8dc5b791507&peopleCd=10075724");
     this.setState({movies : filmos, isLoading : false})
   }
-
   componentDidMount(){
     this.getMovies();
   }
-  
+
   render(){
 
     const { isLoading, movies } = this.state;
    
-    return <div>
+    return <section className="container">
       {
-        isLoading ? 
-        "Loading..." : 
-        movies.map ( movies=> {
-          return <Movie 
-          id={movies.movieCd} 
-          title={movies.movieNm} 
-          key={movies.movieCd} />
-        })
+        ( isLoading ) ? 
+        ( 
+        <div className="loader">
+          <span className="loader_txt">Loading...</span>
+        </div> 
+        ) : 
+        ( 
+        <div className="movies">
+        <header>
+        <h1 className="movies_main_title">Cate Blanchett</h1>
+        </header>
+          <ul className="movies_list">
+            {movies.map ( movies=> {
+              return <li>
+              <Movie 
+              id={movies.movieCd} 
+              title={movies.movieNm} 
+              year={movies.movieCd} 
+              key={movies.movieCd} />
+              </li>
+            })}
+          </ul>
+        </div>
+        )
       }
-    </div>
+    </section>
   }
 }
 
