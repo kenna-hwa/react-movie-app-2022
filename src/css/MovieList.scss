@@ -1,0 +1,30 @@
+@import "./reset";
+@import "./variables";
+@import "./mixin";
+
+
+.container{
+    height:100%;
+    
+    // isLoading 상태
+    .loader {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -100px;
+        
+        .loader_txt{
+            color: #222;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 24px;
+            text-shadow: 2px 2px #eee;
+            line-height: 200px;
+        }
+    }
+}

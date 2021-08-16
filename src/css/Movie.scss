@@ -2,6 +2,8 @@
 @import "./mixin";
 
 .movies{
+    margin-top: 20px;
+    text-align: left;
     .movies_info {
         width: 40%;
         background: #{$background-white};
@@ -16,20 +18,11 @@
         @include yellow-deco;
         transition: 0.3s all;
         }
-
-        a{
-            display: grid;
-            grid-template-columns: minmax(150px, 1fr) 2fr;
-            grid-gap: 20px;
-            text-decoration: none;
-            color: inherit;
-        }
-
         .movies_text{
             .movies_title{
                 color: #{$titleColor};
                 font-size: 20px;
-                font-weight: 500;
+                font-weight: 600;
                 margin-bottom: 10px;
             }
         }

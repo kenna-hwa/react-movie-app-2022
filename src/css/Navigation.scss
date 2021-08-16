@@ -1,1 +1,50 @@
+@import "./reset";
+@import "./variables";
+@import "./mixin";
 
+.nav{
+    width: 20%;
+    margin: 40px auto;
+    @include engFont;
+    z-index: 1;
+    text-decoration: none;
+    color: #{$titleColor};
+
+    .nav_home{
+        margin-right: 20px;
+        transition: all 0.1s;
+        color: #{$fontColor};
+
+        &:visited{
+            color: #{$visitedColor};
+        }
+        &:hover{
+            @include linkHover;
+        }
+    }
+
+    .nav_about{
+        margin-right: 20px;
+        transition: all 0.1s;
+        color: #{$fontColor};
+
+        &:visited{
+            color: #{$visitedColor};
+        }
+        &:hover{
+            @include linkHover;
+        }
+    }
+       
+    .nav_movielist{
+        transition: all 0.1s;
+        color: #{$fontColor};
+
+        &:visited{
+            color: #{$visitedColor};
+        }
+        &:hover{
+            @include linkHover;
+        }
+    }
+}

@@ -11,3 +11,16 @@
 @mixin yellow-deco {
   box-shadow: 0 13px 27px -5px rgba(210, 197, 232, 0.3), 0 8px 16px -8px rgba(210, 197, 232, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
+
+@mixin engFont { 
+  font-family: 'Playfair Display', serif;
+}
+
+@mixin korFont {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+@mixin linkHover {
+  color: #{$hoverColor};
+  transition: all 0.1s;
+}

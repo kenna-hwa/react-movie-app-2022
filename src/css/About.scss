@@ -11,13 +11,13 @@
         background: #{$background-white};
         border-radius: 10px;
         .about_name{
-                font-family: 'Playfair Display', serif;
+                @include engFont;
                 font-size: 32px;
                 font-style: italic;
                 text-align: center;
                 color: #{$titleColor};
                 h2:nth-child(2){
-                    font-family: 'Noto Sans KR', sans-serif;
+                    @include korFont;
                     font-size: 16px;
                     font-weight: 200;
                     font-style: normal;

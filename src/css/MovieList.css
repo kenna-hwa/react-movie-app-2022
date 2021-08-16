@@ -50,62 +50,28 @@ table {
   border-spacing: 0;
 }
 
-.nav {
-  width: 20%;
-  margin: 40px auto;
+.container {
+  height: 100%;
+}
+
+.container .loader {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.container .loader .loader_txt {
+  color: #222;
   font-family: 'Playfair Display', serif;
-  z-index: 1;
-  text-decoration: none;
-  color: #2C2C2C;
+  font-style: italic;
+  font-size: 24px;
+  text-shadow: 2px 2px #eee;
+  line-height: 200px;
 }
-
-.nav .nav_home {
-  margin-right: 20px;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-  color: #CCC;
-}
-
-.nav .nav_home:visited {
-  color: #666;
-}
-
-.nav .nav_home:hover {
-  color: #D891C3;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-}
-
-.nav .nav_about {
-  margin-right: 20px;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-  color: #CCC;
-}
-
-.nav .nav_about:visited {
-  color: #666;
-}
-
-.nav .nav_about:hover {
-  color: #D891C3;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-}
-
-.nav .nav_movielist {
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-  color: #CCC;
-}
-
-.nav .nav_movielist:visited {
-  color: #666;
-}
-
-.nav .nav_movielist:hover {
-  color: #D891C3;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-}
-/*# sourceMappingURL=Navigation.css.map */
+/*# sourceMappingURL=MovieList.css.map */
