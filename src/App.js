@@ -10,15 +10,15 @@ import './css/App.css';
 class App extends React.Component {
 render(){
   return (
-    <header>
-    <h1 className="movies_main_title">Cate Blanchett</h1>
+    <section className="main_container">
+    <h1 className="main_title">Cate Blanchett</h1>
       <HashRouter>
         <Navigation />
       <Route path="/" exact={true} component={Home} />
       <Route path="/movielist" exact={true} component={MovieList} />
       <Route path="/about" exact={true} component={About} />
       </HashRouter>
-  </header>  
+  </section>  
 )}
 }
 export default App;

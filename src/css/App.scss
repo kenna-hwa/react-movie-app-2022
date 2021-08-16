@@ -12,11 +12,11 @@ html, body{
     word-break: keep-all;
     cursor: default;
 
-    header{
+    .main_container{
         text-align: center;
         margin: 60px auto;
 
-        .movies_main_title{
+        .main_title{
             font-size: 40px;
             @include engFont;
             font-weight: 800;

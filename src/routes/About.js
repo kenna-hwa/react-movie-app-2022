@@ -1,7 +1,8 @@
 import React from 'react';
 import '../css/About.css'
 
-function About() {
+function About(props) {
+    console.log(props)
     return (
         <section className="about_container">
             <div className="about_name">

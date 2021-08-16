@@ -23,7 +23,7 @@ class MovieList extends React.Component {
 
     const { isLoading, movies } = this.state;
    
-    return <section className="container">
+    return <section className="movie_container">
       {
         ( isLoading ) ? 
         ( 

@@ -60,12 +60,12 @@ html, body {
   cursor: default;
 }
 
-html header, body header {
+html .main_container, body .main_container {
   text-align: center;
   margin: 60px auto;
 }
 
-html header .movies_main_title, body header .movies_main_title {
+html .main_container .main_title, body .main_container .main_title {
   font-size: 40px;
   font-family: 'Playfair Display', serif;
   font-weight: 800;
