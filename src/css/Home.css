@@ -76,11 +76,11 @@ html .container .loader, body .container .loader {
 }
 
 html .container .loader .loader_txt, body .container .loader .loader_txt {
-  color: #f2f3f4;
+  color: #222;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 24px;
-  text-shadow: 2px 2px #222;
+  text-shadow: 2px 2px #eee;
   line-height: 200px;
 }
 
@@ -95,4 +95,4 @@ html .container header .movies_main_title, body .container header .movies_main_t
   font-weight: 800;
   font-style: italic;
 }
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=Home.css.map */
