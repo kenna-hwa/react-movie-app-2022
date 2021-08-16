@@ -1,9 +1,18 @@
 import React from 'react';
-import Home from './routes/Home'
+import { HashRouter, Route } from 'react-router-dom';
+import About from './routes/About';
+import Home from './routes/Home';
+import Navigation from './components/Navigation';
+
 
 class App extends React.Component {
 render(){
-  return <Home />
-  }
+  return (
+  <HashRouter>
+    <Navigation />
+  <Route path="/" exact={true} component={Home} />
+  <Route path="/about" exact={true} component={About} />
+  </HashRouter>
+)}
 }
 export default App;

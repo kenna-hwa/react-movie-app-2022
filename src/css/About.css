@@ -48,55 +48,30 @@ table {
   border-spacing: 0;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html, body {
+.about_container {
+  width: 60%;
   height: 100%;
-  background-color: #F8F4FF;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  word-break: keep-all;
-  cursor: default;
-}
-
-html .container, body .container {
-  height: 100%;
-}
-
-html .container .loader, body .container .loader {
-  position: absolute;
-  width: 200px;
-  height: 200px;
   margin: 0 auto;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -100px;
+  padding: 100px;
+  -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.4), 0 8px 16px -8px rgba(10, 10, 10, 0.4), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+          box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.4), 0 8px 16px -8px rgba(10, 10, 10, 0.4), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  background: #FFF;
+  border-radius: 10px;
 }
 
-html .container .loader .loader_txt, body .container .loader .loader_txt {
-  color: #222;
+.about_container .about_name {
   font-family: 'Playfair Display', serif;
+  font-size: 32px;
   font-style: italic;
-  font-size: 24px;
-  text-shadow: 2px 2px #eee;
-  line-height: 200px;
-}
-
-html .container header, body .container header {
   text-align: center;
-  margin: 100px auto;
+  color: #2C2C2C;
 }
 
-html .container header .movies_main_title, body .container header .movies_main_title {
-  font-size: 40px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 800;
-  font-style: italic;
+.about_container .about_name h2:nth-child(2) {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+  margin-top: 10px;
 }
-/*# sourceMappingURL=Home.css.map */
+/*# sourceMappingURL=About.css.map */
