@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.movieinfo_container {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.4), 0 8px 16px -8px rgba(10, 10, 10, 0.4), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+          box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.4), 0 8px 16px -8px rgba(10, 10, 10, 0.4), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  background: #FFF;
+  border-radius: 10px;
+}
+
+.movieinfo_container .movieinfo_title_box {
+  margin-bottom: 20px;
+}
+
+.movieinfo_container .movieinfo_title_box h2 {
+  font-size: 36px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.movieinfo_container .movieinfo_title_box p {
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.movieinfo_container .movieinfo_info_box p {
+  font-size: 14px;
+  font-weight: 200;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.movieinfo_container .movieinfo_img_box {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  margin: 50px auto 0;
+}
+
+.movieinfo_container .movieinfo_img_box img {
+  position: relative;
+  width: 100%;
+}
+/*# sourceMappingURL=Detail.css.map */
