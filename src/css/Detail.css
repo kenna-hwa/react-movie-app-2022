@@ -50,6 +50,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .movieinfo_container {
   width: 60%;
   height: 100%;
@@ -62,17 +66,17 @@ table {
 }
 
 .movieinfo_container .movieinfo_title_box {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .movieinfo_container .movieinfo_title_box h2 {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 200;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .movieinfo_container .movieinfo_title_box p {
-  font-size: 28px;
+  font-size: 32px;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-style: italic;
@@ -81,7 +85,6 @@ table {
 .movieinfo_container .movieinfo_info_box p {
   font-size: 14px;
   font-weight: 200;
-  margin-left: 10px;
   margin-bottom: 10px;
 }
 

@@ -35,12 +35,13 @@ class Detail extends React.Component{
     render(){
         const { location } = this.props;
         const { movie } = this.state;
-
+        
         if (location.state){
             console.log(movie['movieNmEn'])
 
         return ( 
             <div>
+                {  movie  ? 
                 <MovieInfo 
                 code={movie.movieCd}
                 title={movie.movieNm}
@@ -50,6 +51,8 @@ class Detail extends React.Component{
                 movieType={movie.typeNm}
                 director={movie.directors}
                 />
+                : null }
+               
             </div>
         )
         }else{

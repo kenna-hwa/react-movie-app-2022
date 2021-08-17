@@ -24,10 +24,18 @@
   transition: 0.3s all;
 }
 
+.movies .movies_info .movies_text:active {
+  text-decoration: none;
+}
+
 .movies .movies_info .movies_text .movies_title {
   color: #2C2C2C;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.movies .movies_info .movies_text .movies_title:active {
+  text-decoration: none;
 }
 /*# sourceMappingURL=Movie.css.map */

@@ -5,6 +5,7 @@
     margin-top: 20px;
     text-align: left;
     text-decoration: none;
+
     .movies_info {
         width: 40%;
         background: #{$background-white};
@@ -20,11 +21,17 @@
         transition: 0.3s all;
         }
         .movies_text{
+            &:active{
+                text-decoration: none;
+            }
             .movies_title{
                 color: #{$titleColor};
                 font-size: 20px;
                 font-weight: 600;
                 margin-bottom: 10px;
+                &:active{
+                    text-decoration: none;
+                }
             }
         }
     }

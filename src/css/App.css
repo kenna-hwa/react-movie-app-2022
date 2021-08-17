@@ -50,6 +50,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 html, body {
   height: 100%;
   background-color: #F8F4FF;
@@ -62,7 +66,8 @@ html, body {
 
 html .main_container, body .main_container {
   text-align: center;
-  margin: 60px auto;
+  margin: 30px auto;
+  padding: 30px 0;
 }
 
 html .main_container .main_title, body .main_container .main_title {

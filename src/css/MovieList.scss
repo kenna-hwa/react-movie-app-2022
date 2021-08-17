@@ -5,7 +5,7 @@
 
 .movie_container{
     height:100%;
-    
+    margin-bottom: 50px;
     // isLoading 상태
     .loader {
         position: absolute;
@@ -27,4 +27,5 @@
             line-height: 200px;
         }
     }
+
 }

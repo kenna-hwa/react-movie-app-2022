@@ -50,8 +50,13 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .movie_container {
   height: 100%;
+  margin-bottom: 50px;
 }
 
 .movie_container .loader {

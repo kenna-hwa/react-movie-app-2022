@@ -50,6 +50,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .home_container {
   width: 60%;
   height: 100%;

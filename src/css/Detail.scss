@@ -13,14 +13,14 @@
     
 
     .movieinfo_title_box{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         h2{
-            font-size: 36px;
+            font-size: 24px;
             font-weight: 200;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         p{
-            font-size: 28px;
+            font-size: 32px;
             @include engFont;
             font-weight: 600;
             font-style: italic;
@@ -31,7 +31,6 @@
         p{
             font-size: 14px;
             font-weight: 200;
-            margin-left: 10px;
             margin-bottom: 10px;
         }
     }
