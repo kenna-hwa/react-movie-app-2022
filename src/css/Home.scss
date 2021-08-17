@@ -6,6 +6,7 @@
     width: 60%;
     height: 100%;
     margin: 0 auto;
+    @include korFont;
     
     .home_txt_container{
         padding: 100px;
@@ -13,12 +14,50 @@
         background: #{$background-white};
         border-radius: 10px;
         margin-bottom: 50px;
+        h1{
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 400;
+            margin-bottom: 30px;
+            @include engFont;
+        }
+        p{
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 50px;
+        }
+        .home_txt_github{
+            font-size: 12px;
+            &:active{
+                color: #{$visitedColor};
+            }
+        }
     }
 
     .my_about_container{
-        padding: 100px;
+        font-size: small;
+        font-weight: 200;
+        padding: 20px;
         @include box-deco;
         background: #{$background-white};
         border-radius: 10px;
+        p{
+            font-weight: 400;
+            margin: 20px 0 10px;
+        }
+        .instagram{
+            margin-right: 10px;
+        }
+        .github{
+            margin-right: 10px;
+        }
+        &:active{
+            color: #{$visitedColor};
+        }
     }
 }

@@ -58,6 +58,7 @@ a {
   width: 60%;
   height: 100%;
   margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .home_container .home_txt_container {
@@ -69,11 +70,58 @@ a {
   margin-bottom: 50px;
 }
 
+.home_container .home_txt_container h1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.home_container .home_txt_container h2 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.home_container .home_txt_container p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.home_container .home_txt_container .home_txt_github {
+  font-size: 12px;
+}
+
+.home_container .home_txt_container .home_txt_github:active {
+  color: #666;
+}
+
 .home_container .my_about_container {
-  padding: 100px;
+  font-size: small;
+  font-weight: 200;
+  padding: 20px;
   -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.4), 0 8px 16px -8px rgba(10, 10, 10, 0.4), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
           box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.4), 0 8px 16px -8px rgba(10, 10, 10, 0.4), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   background: #FFF;
   border-radius: 10px;
+}
+
+.home_container .my_about_container p {
+  font-weight: 400;
+  margin: 20px 0 10px;
+}
+
+.home_container .my_about_container .instagram {
+  margin-right: 10px;
+}
+
+.home_container .my_about_container .github {
+  margin-right: 10px;
+}
+
+.home_container .my_about_container:active {
+  color: #666;
 }
 /*# sourceMappingURL=Home.css.map */
