@@ -17,6 +17,7 @@ function Home(){
             <article className="my_about_container">
             <h2> Copyright 2021. Juhwa Hwang all rights reserved.</h2>
             <p>만든 사람에 대해 궁금하신가요?</p>
+            <p>이 앱을 만든 과정은 　<a href="https://kenna-hwa.github.io/">&#9900; 블로그 　</a>에 있습니다.</p>
             <a href="https://www.instagram.com/peacehwa/" className="instagram">&#9900; Instagram</a>
             <a href="https://github.com/kenna-hwa" className="github">&#9900; GitHub</a>
             <a href="https://kenna-hwa.github.io/portfolio_kenna/" className="portfolio">&#9900; Portfolio</a>
