@@ -20,7 +20,7 @@ function Home(){
             <p>이 앱을 만든 과정은 　<a href="https://kenna-hwa.github.io/">&#9900; 블로그 　</a>에 있습니다.</p>
             <a href="https://www.instagram.com/peacehwa/" className="instagram">&#9900; Instagram</a>
             <a href="https://github.com/kenna-hwa" className="github">&#9900; GitHub</a>
-            <a href="https://kenna-hwa.github.io/portfolio_kenna/" className="portfolio">&#9900; Portfolio</a>
+            <a href="https://quasar-wisteria-ada.notion.site/Resume-b312917e66f14e71b4db78cfbecb7fa4" className="portfolio">&#9900; Portfolio</a>
             </article>
         </section>
     )
