@@ -37,6 +37,19 @@
     }
        
     .nav_movielist{
+        margin-right: 20px;
+        transition: all 0.1s;
+        color: #{$fontColor};
+
+        &:visited{
+            color: #{$visitedColor};
+        }
+        &:hover{
+            @include linkHover;
+        }
+    }
+
+    .nav_signin{
         transition: all 0.1s;
         color: #{$fontColor};
 

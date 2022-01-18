@@ -98,6 +98,7 @@ a {
 }
 
 .nav .nav_movielist {
+  margin-right: 20px;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
   color: #CCC;
@@ -108,6 +109,22 @@ a {
 }
 
 .nav .nav_movielist:hover {
+  color: #D891C3;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.nav .nav_signin {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: #CCC;
+}
+
+.nav .nav_signin:visited {
+  color: #666;
+}
+
+.nav .nav_signin:hover {
   color: #D891C3;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
