@@ -19,8 +19,8 @@
         align-items: center;
 
         .signin_form_header{
-            font-size: 1.25em;
-            font-weight: 500;
+            font-size: 1.4em;
+            font-weight: 600;
             margin-bottom: 1.8rem;
         }
 
@@ -68,6 +68,7 @@
             border: none;
             border-radius: 5px;
             font-size: 0.725rem;
+            font-weight: 600;
             cursor: pointer;
             @include box-deco;
             transition: 0.4s all;
@@ -79,6 +80,33 @@
         }
     }
 
+    .signin_with_kakao{
+        width: 150px;
+        margin: 2.5em auto 0;
+        font-size: 0.9em;
+        font-weight: 600;
+        cursor: pointer;
 
+        a{
+            color: #444;
+            transition: 0.4s all;
+
+            &:hover{
+                transition: 0.4s all;
+                color: #ffee07;
+            }
+    
+            &:visited{
+                color: #444;
+                transition: 0.4s all;
+            }
+
+            &:visited:hover{
+                color: #ffee07;
+                transition: 0.4s all;
+            }
+        }
+
+    }
 
 }
